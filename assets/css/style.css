@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}  
+
+header {
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #790c5a;
+    border: 1px solid gray;
+}
+
+#logo {
+    font-size: 2em;
+    margin-right: 8em;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 3em;
+    font-size: 1.2em;  
+}
